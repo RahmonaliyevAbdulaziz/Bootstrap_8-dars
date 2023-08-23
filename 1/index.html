@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8-dars</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container px-5 py-1 bg-light">
+    <div class="row my-5 p-3 bg-white">
+        <div class="col-md-10">
+            <h2>Account settings</h2>
+        </div>
+    </div>
+    <div class="row my-5 pr-0">
+        <div class="col-md-5 mr-5 py-3 px-3 bg-white" style="margin-right: 50px">
+            <h5>Personal information<button type="button" class="btn float-right dropdown dropdown-toggle" data-toggle="dropdown" data-target="#personal"></button></h5>
+            <div class="" id="personal">
+                <form action="#">
+                    <label for="ac1" class="mt-2" >Account name</label>
+                    <input type="text" class="form-control" id="ac1" placeholder="Account name">
+                    <label for="ac2" class="mt-2" >User Name</label>
+                    <input type="text" id="ac2" placeholder="User name" class="form-control mb-3">
+                    <span class="mt-5" style="font-size: 13px">Sizning tizimdagi accountingiz https://pinup.uz/account/<strong>accountName</strong></span>
+                    <label for="ac3" class="mt-2" >Email address</label>
+                    <input type="text" id="ac3" placeholder="Email" class="form-control">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="ac4" class="mt-2" >Password</label>
+                            <input type="text" id="ac4" placeholder="Password" class="form-control">
+
+                        </div>
+                        <div class="col-md-6">
+                            <label for="ac5" class="mt-2" >Confirm Password</label>
+                            <input type="text" id="ac5" placeholder="Confirm Password" class="form-control">
+
+                        </div>
+                    </div>
+                    <label for="ac6" class="mt-2" >Site address</label>
+                    <input type="text" class="form-control" id="ac6" placeholder="Site address">
+                </form>
+            </div>
+        </div>
+        <div class="col-md-5 py-3 px-3 ml-5  bg-white" style="padding-right: 100px;" >
+            <h5>Profil image & cover
+                <button type="button" class="btn float-right dropdown dropdown-toggle"  data-toggle="dropdown" data-target="#profil"></button>
+            </h5>
+            <div class="">
+                <div class="row w-100">
+                    <div class="img m-3"><img class="img" src="https://img.freepik.com/free-icon/user_318-159711.jpg" alt=""></div>
+                    <div class="card-title mt-3"><strong>Profil image</strong></div>
+                    <div class="card-text mt-5 text-secondary" style="font-size: 13px; margin-left: -90px">JPG,GIF or   PNG 100x100px</div>
+                <button type="button" class="btn btn-success mt-4 ml-5" style="height: 30px; line-height: 15px">Upload image</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5 ">
+        <div class="col-md-5 mr-5 py-3 px-3  bg-white">
+            <h5>Billing information<button type="button" class="btn float-right dropdown dropdown-toggle" data-toggle="dropdown" data-target="#billing"></button></h5>
+            <div class="" id="billing">
+            <form action="#">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="uname">User name</label>
+                        <input type="text" id="uname" class="form-control" placeholder="User name">
+                    </div>
+                </div>
+                <label for="a">Company Name</label>
+                <input type="text" class="form-control mb-3" id="a" placeholder="Company Name">
+                <label for="e">Email address</label>
+                <input type="text" class="form-control mb-3" id="e" placeholder="Email address">
+                <label for="country">Country</label>
+                <select name="country" id="country" class="form-control mb-3">
+                    <option value="1">Toshkent</option>
+                    <option value="2">San</option>
+                    <option value="3">Man</option>
+                </select>
+                <label for="a2">Addres line 1</label>
+                <input type="text" class="form-control mb-3" id="a2" placeholder="Addres line 1">
+                <label for="e2">Addres line 2</label>
+                <input type="text" class="form-control mb-3" id="e2" placeholder="Addres line 2">
+            </form>
+            </div>
+        </div>
+        <div class="col-md-5 mr-5 py-3 ml-5 px-3 bg-white">
+            <h5>Social profile<button type="button" class="btn float-right dropdown dropdown-toggle" data-toggle="dropdown" data-target="#social"></button></h5>
+            <div class="">
+                <table class="table">
+                    <tr>
+                        <td style="border-top: none"><label for="face"><img height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt=""></label></td>
+                        <td style="border-top: none"><input type="text" id="face" class="form-control" placeholder="ex/facebook"></td>
+                    </tr>
+                    <tr>
+                        <td style="border-top: none"><label for="face2"><img height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt=""></label></td>
+                        <td style="border-top: none"><input type="text" id="face2" class="form-control" placeholder="ex/telegram"></td>
+                    </tr>
+                    <tr>
+                        <td style="border-top: none"><label for="face3"><img height="40" width="40" src="https://png.pngtree.com/png-clipart/20221019/original/pngtree-twitter-social-media-round-icon-png-image_8704823.png" alt=""></label></td>
+                        <td style="border-top: none"><input type="text" id="face3" class="form-control" placeholder="ex/twitter"></td>
+                    </tr>
+                    <tr>
+                        <td style="border-top: none"><label for="face4"><img height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt=""></label></td>
+                        <td style="border-top: none"><input type="text" id="face4" class="form-control" placeholder="ex/instagram"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-5  p-3 bg-white offset-6">
+            <h5>Contact settings<button type="button" class="btn float-right dropdown dropdown-toggle" data-toggle="dropdown" data-target="#number"></button></h5>
+        <div class="">
+            <input type="checkbox" id="nomer" class="mt-4" style="margin-top: -20px; line-height: 30px">
+            <label for="nomer" class="mt-4"><strong>Telefon raqamini korsatish</strong><br>
+            telefon raqamigiz ko'rsatish yoki yashirish</label>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

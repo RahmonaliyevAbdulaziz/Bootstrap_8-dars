@@ -1,0 +1,11 @@
+.col-md-6-qolda{
+    width: 370px;
+}
+.img{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+}
+table td{
+    border-top: none !important;
+}

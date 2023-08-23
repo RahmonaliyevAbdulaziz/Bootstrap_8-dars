@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a href="#" class="navbar-brand">IT PARK</a>
+        <button type="button" class="navbar-toggler" data-target="#mainMenu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Bosh Sahifa</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Biz Haqimizda</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Jamoa</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Kurslar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Kontaktlar</a></li>
+                <li class="nav-item"><a href="../Bootstrap%206-dars/index.html" class="nav-link">Bekmirzo bn Aloqa</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+            <div class="card">
+                <div class="card-body">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="login">Loginni krt </label>
+                            <input type="text" class="form-control" placeholder="Bek Daun" id="login">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Parolli krt </label>
+                            <input type="password" class="form-control" placeholder="Bek Jnni" id="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="dist">Qowmca krt</label>
+                            <textarea name="dist" id="dist" class="form-control" placeholder="Qowmca krtin brat"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="region"></label>
+                            <select name="region" id="region" class="form-control">
+                                <option value="1">Qash</option>
+                                <option value="2">Nav</option>
+                                <option value="3">Sam</option>
+                                <option value="4">Bux</option>
+                                <option value="5" selected>Tow</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-success float-right">Tzmga krolsen kr</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+            <form action="#">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button type="button" class="btn btn-lightt dropdown-toggle" data-target="#dropdown">
+                            All categories
+                        </button>
+                        <div class="dropdown-menu" id="dropdown">
+                            <a href="#" class="dropdown-item">Home</a>
+                            <a href="#" class="dropdown-item">Shop</a>
+                            <a href="#" class="dropdown-item">Health and Safety</a>
+                            <a href="#" class="dropdown-item">Baby Clothes</a>
+                            <a href="#" class="dropdown-item">Baby Toys</a>
+                            <a href="#" class="dropdown-item">Pages</a>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-danger">&telrec;</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
